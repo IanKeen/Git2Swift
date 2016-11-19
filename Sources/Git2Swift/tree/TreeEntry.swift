@@ -16,6 +16,11 @@ public class TreeEntry {
     /// The filename of a tree entry
     public let name : String
     
+    /// Commit summary
+    lazy public var oid : OID = {
+        OID(withGitOid: git_tree_entry_id(self.pointer.pointee).pointee)
+    } ()
+    
     /// Libgit2 pointer
     internal let pointer : UnsafeMutablePointer<OpaquePointer?>
     

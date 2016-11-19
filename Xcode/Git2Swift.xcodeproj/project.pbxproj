@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32BE741E1DDFDC1A00B0C705 /* CommitIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE741D1DDFDC1A00B0C705 /* CommitIterator.swift */; };
 		372456381D9066D100E62779 /* FileHistoryIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372456361D9066D100E62779 /* FileHistoryIterator.swift */; };
 		372456391D9066D100E62779 /* RevisionIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372456371D9066D100E62779 /* RevisionIterator.swift */; };
 		3724563C1D90670800E62779 /* RevlogTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724563A1D9066F700E62779 /* RevlogTest.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32BE741D1DDFDC1A00B0C705 /* CommitIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitIterator.swift; sourceTree = "<group>"; };
 		372456361D9066D100E62779 /* FileHistoryIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHistoryIterator.swift; sourceTree = "<group>"; };
 		372456371D9066D100E62779 /* RevisionIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevisionIterator.swift; sourceTree = "<group>"; };
 		3724563A1D9066F700E62779 /* RevlogTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RevlogTest.swift; path = Git2SwiftTests/RevlogTest.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			children = (
 				372456361D9066D100E62779 /* FileHistoryIterator.swift */,
 				372456371D9066D100E62779 /* RevisionIterator.swift */,
+				32BE741D1DDFDC1A00B0C705 /* CommitIterator.swift */,
 			);
 			name = revision;
 			path = Git2Swift/revision;
@@ -549,6 +552,7 @@
 				37D957CB1D8F089D004BB092 /* Index.swift in Sources */,
 				37D957C11D8F089D004BB092 /* Error.swift in Sources */,
 				37D957CC1D8F089D004BB092 /* Reference+Target.swift in Sources */,
+				32BE741E1DDFDC1A00B0C705 /* CommitIterator.swift in Sources */,
 				37D957D01D8F089D004BB092 /* Repository+Commit.swift in Sources */,
 				37D957C01D8F089D004BB092 /* ConfigManager.swift in Sources */,
 				372456381D9066D100E62779 /* FileHistoryIterator.swift in Sources */,

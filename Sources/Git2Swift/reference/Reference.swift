@@ -50,7 +50,7 @@ func git_revTree(repository: Repository, referenceName: String) throws -> Tree {
     let revTree = UnsafeMutablePointer<OpaquePointer?>.allocate(capacity: 1)
     
     // Find tree
-    let error = git_revparse_single(revTree, repository.pointer.pointee, referenceName);
+    let error = git_revparse_single(revTree, repository.pointer.pointee, "\(referenceName)^{tree}")
     if (error != 0) {
         throw gitUnknownError("Unable to find rev-tree for '\(referenceName)'", code: error)
     }
